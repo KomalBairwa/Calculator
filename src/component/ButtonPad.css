@@ -1,0 +1,17 @@
+.button-pad{
+    display: grid; /* Use CSS grid for button layout */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns in the grid */
+    gap: 10px; /* Gap between buttons */
+}
+
+.button {
+    height: 40px;
+    width: 100%; /* Make buttons fill the grid cells */
+    padding: 10px;
+    font-size: 18px; /* Adjust font size */
+    background-color: #3498db; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button borders */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Change cursor on hover */
+  }
